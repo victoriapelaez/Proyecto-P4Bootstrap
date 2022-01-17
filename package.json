@@ -1,0 +1,25 @@
+{
+  "name": "Proyecto-P4Bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch src/scss/custom.scss:src/scss/custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriapelaez/Proyecto-P4Bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriapelaez/Proyecto-P4Bootstrap/issues"
+  },
+  "homepage": "https://github.com/victoriapelaez/Proyecto-P4Bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.47.0"
+  },
+  "devDependencies": {}
+}
