@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Nixie+One&display=swap");
+@import url("https://allfont.es/allfont.css?fonts=muli-light");
 // Custom.scss
 // Option A: Include all of Bootstrap
 
@@ -5,14 +7,44 @@
 $theme-colors: (
   "primary": #303030,
   "secondary": white,
-  /* "success":    $success,
-  "info":       $info,
+  "success": #f6f6f6,
+ /*  "info":       $info,
   "warning":    $warning,
   "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark */
+  "light":      $light,*/ 
+  "dark":       #000
 );
+/* $primary: #303030;
+$secondary: white;
+$success: #f6f6f6; */
+
+
+$font-family-base: "Muli Light", arial;
+
+h2,h3
+ {
+  color: #000;
+    font-family: 'Nixie One', cursive;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-transform: uppercase;
+}
+p {
+  color: #606060;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 24px;
+}
+
+
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+navbar-toggler{
+ background-color: white !important;
+}

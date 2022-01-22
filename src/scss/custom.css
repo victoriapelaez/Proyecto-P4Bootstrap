@@ -1,4 +1,26 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Nixie+One&display=swap");
+@import url("https://allfont.es/allfont.css?fonts=muli-light");
+/* $primary: #303030;
+$secondary: white;
+$success: #f6f6f6; */
+h2, .h2, h3, .h3 {
+  color: #000;
+  font-family: "Nixie One", cursive;
+  font-weight: normal;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-transform: uppercase;
+}
+
+p {
+  color: #606060;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 24px;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -30,8 +52,10 @@
   --bs-gray-900: #212529;
   --bs-primary: #303030;
   --bs-secondary: white;
+  --bs-success: #f6f6f6;
   --bs-primary-rgb: 48, 48, 48;
   --bs-secondary-rgb: 255, 255, 255;
+  --bs-success-rgb: 246, 246, 246;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -39,7 +63,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: Muli Light, arial;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -2974,6 +2998,36 @@ textarea.form-control-lg {
   border-color: white;
 }
 
+.btn-success {
+  color: #000;
+  background-color: #f6f6f6;
+  border-color: #f6f6f6;
+}
+.btn-success:hover {
+  color: #000;
+  background-color: #f7f7f7;
+  border-color: #f7f7f7;
+}
+.btn-check:focus + .btn-success, .btn-success:focus {
+  color: #000;
+  background-color: #f7f7f7;
+  border-color: #f7f7f7;
+  box-shadow: 0 0 0 0.25rem rgba(209, 209, 209, 0.5);
+}
+.btn-check:checked + .btn-success, .btn-check:active + .btn-success, .btn-success:active, .btn-success.active, .show > .btn-success.dropdown-toggle {
+  color: #000;
+  background-color: #f8f8f8;
+  border-color: #f7f7f7;
+}
+.btn-check:checked + .btn-success:focus, .btn-check:active + .btn-success:focus, .btn-success:active:focus, .btn-success.active:focus, .show > .btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(209, 209, 209, 0.5);
+}
+.btn-success:disabled, .btn-success.disabled {
+  color: #000;
+  background-color: #f6f6f6;
+  border-color: #f6f6f6;
+}
+
 .btn-outline-primary {
   color: #303030;
   border-color: #303030;
@@ -3021,6 +3075,31 @@ textarea.form-control-lg {
 }
 .btn-outline-secondary:disabled, .btn-outline-secondary.disabled {
   color: white;
+  background-color: transparent;
+}
+
+.btn-outline-success {
+  color: #f6f6f6;
+  border-color: #f6f6f6;
+}
+.btn-outline-success:hover {
+  color: #000;
+  background-color: #f6f6f6;
+  border-color: #f6f6f6;
+}
+.btn-check:focus + .btn-outline-success, .btn-outline-success:focus {
+  box-shadow: 0 0 0 0.25rem rgba(246, 246, 246, 0.5);
+}
+.btn-check:checked + .btn-outline-success, .btn-check:active + .btn-outline-success, .btn-outline-success:active, .btn-outline-success.active, .btn-outline-success.dropdown-toggle.show {
+  color: #000;
+  background-color: #f6f6f6;
+  border-color: #f6f6f6;
+}
+.btn-check:checked + .btn-outline-success:focus, .btn-check:active + .btn-outline-success:focus, .btn-outline-success:active:focus, .btn-outline-success.active:focus, .btn-outline-success.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(246, 246, 246, 0.5);
+}
+.btn-outline-success:disabled, .btn-outline-success.disabled {
+  color: #f6f6f6;
   background-color: transparent;
 }
 
@@ -4505,6 +4584,15 @@ textarea.form-control-lg {
   color: #525252;
 }
 
+.alert-success {
+  color: #626262;
+  background-color: #fdfdfd;
+  border-color: #fcfcfc;
+}
+.alert-success .alert-link {
+  color: #4e4e4e;
+}
+
 @keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -4798,6 +4886,20 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #666666;
   border-color: #666666;
+}
+
+.list-group-item-success {
+  color: #626262;
+  background-color: #fdfdfd;
+}
+.list-group-item-success.list-group-item-action:hover, .list-group-item-success.list-group-item-action:focus {
+  color: #626262;
+  background-color: #e4e4e4;
+}
+.list-group-item-success.list-group-item-action.active {
+  color: #fff;
+  background-color: #626262;
+  border-color: #626262;
 }
 
 .btn-close {
@@ -5166,7 +5268,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Muli Light", arial;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5268,7 +5370,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Muli Light", arial;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5813,6 +5915,13 @@ textarea.form-control-lg {
   color: white;
 }
 
+.link-success {
+  color: #f6f6f6;
+}
+.link-success:hover, .link-success:focus {
+  color: #f8f8f8;
+}
+
 .ratio {
   position: relative;
   width: 100%;
@@ -6209,6 +6318,10 @@ textarea.form-control-lg {
 
 .border-secondary {
   border-color: white !important;
+}
+
+.border-success {
+  border-color: #f6f6f6 !important;
 }
 
 .border-white {
@@ -7018,6 +7131,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-success {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
@@ -7077,6 +7195,11 @@ textarea.form-control-lg {
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
@@ -10511,6 +10634,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+navbar-toggler {
+  background-color: white !important;
 }
 
 /*# sourceMappingURL=custom.css.map */
