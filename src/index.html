@@ -16,7 +16,7 @@
 </head>
 
 <body class="bg-success w-100">
-	<div class="container mw-100 p-0" >
+	<div class="container mw-100 p-0">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
 			<a href="index.html" id="logo" class="ms-5">
 				<img src="images/logo.png" alt="LOGO" class="img-fluid mt-3 mb-3 ms-5 ps-5">
@@ -58,8 +58,8 @@
 		<div class="card m-5 bg-success border-0">
 			<div class="row g-0 justify-content-center">
 				<div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
-					<div class="card-body">
-						<h2>Welcome to Neodance Studio</h2>
+					<div class="card-body p-0">
+						<p class="h3">Welcome to Neodance Studio</p>
 						<p class="m-0">
 							This website template has been designed by <a href="http://www.freewebsitetemplates.com/"
 								class="text-muted">Free
@@ -98,213 +98,223 @@
 	</div>
 
 
+	<div class="m-5 border-top border-3">
+		<h3 class="mt-4">Recent Performances<br><span class="badge bg-section">New Section</span></h3>
+	</div>
+
 
 	<div class="container">
-
-
-		
-	</div>
-	<!-- <div id="contents">
-		<div class="container d-flex flex-row-reverse">
-			<div class="pt-3 pe-3 pb-5 ps-5 me-1 mb-3 ms-4">
-				<img src="images/jumping.jpg" alt="Img" class="img-thumbnail img-fluid">
+		<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
 			</div>
-			<div class="d-flex flex-column">
-				<h2>Welcome to Neodance Studio</h2>
-				<p>
-					This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free
-						Website Templates</a> for you, for free. You can replace all this text with your own text.
-				</p>
-				<p>
-					You can remove any link to our website from this website template, you're free to use this
-					website template without linking back to us.
-				</p>
-				<p>
-					If you're having problems editing this website template, then don't hesitate to ask for help on
-					the <a href="http://www.freewebsitetemplates.com/forums/">Forum</a>.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eges- tas auctor condimentum.
-					Aliquam nec augue ut risus imperdiet ornare suscipit non odio. Curabitur tincidunt nunc at nunc
-					vehicula id mattis libero vulputate. Sed gravida aliquet nunc, vitae sollicitudin urna pharetra
-					nec. Nam commodo, libero interdum pellentesque consectetur, nibh dui laoreet nisl, quis
-					condimentum quam odio id leo. Suspendisse leo mi, bibendum a sagittis sed, facilisis et metus.
-					Sed ultrices tellus ac justo elementum eu tristique libero consequat. Donec id interdum sapien.
-					Morbi in orci quis elit convallis tempor.
-				</p>
-			</div>
-		</div> -->
-
-	<div class="container d-flex">
-		<div class="d-flex flex-column">
-			<div>
-				<h3>Recent Performances</h3>
-				<div class="d-flex">
-					<ul>
-						<li class="list-unstyled">
-							<div class="d-flex flex-column">
-								<img src="images/video-swanLake.jpg" alt="Video"> <a href="swanLake.html" class="">Play
-									Video</a>
-							</div>
-							<p>
-								Swan Lake <span>2023</span>
-							</p>
-						</li>
-						<li class="list-unstyled">
-							<div class="d-flex flex-column">
-								<img src="images/video-steppingOut.jpg" alt="Video"> <a href="steppingOut.html"
-									class="">Play Video</a>
-							</div>
-							<p>
-								Stepping Out <span>2023</span>
-							</p>
-						</li>
-					</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active" data-bs-interval="10000">
+					<img src="images/video-swanLake.jpg" alt="Video">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Swan Lake</h5>
+						<p>2023</p>
+						<a href="swanLake.html" class="">Play
+							Video</a>
+					</div>
+				</div>
+				<div class="carousel-item" data-bs-interval="2000">
+					<img src="images/video-steppingOut.jpg" alt="Video">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Stepping Out</h5>
+						<p>2023</p>
+						<a href="steppingOut.html" class="">Play Video</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/video-phantom.jpg" alt="Video">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Phantom of the Opera</h5>
+						<p>2023</p>
+						<a href="phantom.html" class="">Play
+							Video</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/video-cats.jpg" alt="Video">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Cats</h5>
+						<p>2023</p>
+						<a href="cats.html" class="">Play
+							Video</a>
+					</div>
 				</div>
 			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
 		</div>
-		<div class="d-flex">
+	</div>
 
-			<ul>
+	<div class="m-5 border-top border-3">
+		<h3 class="mt-4">Enrollment Going On!</h3>
+	</div>
+	<div class="container mb-5">
+		<table class="table table-borderless ms-5">
+			<thead>
+				<tr>
+					<th scope="col">Date</th>
+					<th scope="col">Link</th>
+					<th scope="col">Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">June 4-8 8am-5pm</th>
+					<td><a href="schedules.html" class="text-muted text-decoration-none">Beginners Introduction To
+							Modern Dance</a></td>
+					<td>Ages 3 to 5</td>
+				</tr>
+				<tr>
+					<th scope="row">June 11-15 8am-5pm</th>
+					<td><a href="schedules.html" class="text-muted text-decoration-none">Secondary Level Of Modern
+							Dance</a></td>
+					<td>Ages 6 to 10</td>
+				</tr>
+				<tr>
+					<th scope="row">June 18-22 8am-5pm</th>
+					<td><a href="schedules.html" class="text-muted text-decoration-none">Junior Class of Modern
+							Dance</a></td>
+					<td>Ages 11 to 13</td>
+				</tr>
+				<tr>
+					<th scope="row">June 26-29 8am-5pm</th>
+					<td><a href="schedules.html" class="text-muted text-decoration-none">Intermediate Class of
+							Modern Dance</a></td>
+					<td>Ages 14 to 16</td>
+				</tr>
+				<tr>
+					<th scope="row">May 2-6 8am-5pm</th>
+					<td><a href="schedules.html" class="text-muted text-decoration-none">Advanced Class of Modern
+							Dance</a></td>
+					<td>Ages 17 to 18</td>
+				</tr>
+				<tr>
+					<th scope="row">May 9-13 8am-5pm</th>
+					<td><a href="schedules.html" class="text-muted text-decoration-none">Expert Class of Modern
+							Dance</a></td>
+					<td>Ages 18-21</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+	<div class="container mw-100 p-0 d-flex">
+		<div class="card-footer p-5">
+			<p class="h6 text-center">Navigation Menu</p>
+			<ul class="footer-list">
 				<li class="list-unstyled">
-					<div class="d-flex flex-column">
-						<img src="images/video-phantom.jpg" alt="Video"> <a href="phantom.html" class="">Play
-							Video</a>
-					</div>
-					<p>
-						Phantom of the Opera <span>2023</span>
-					</p>
+					<a href="index.html" class="text-muted text-decoration-none">Home</a>
 				</li>
 				<li class="list-unstyled">
-					<div class="d-flex flex-column">
-						<img src="images/video-cats.jpg" alt="Video"> <a href="cats.html" class="">Play
-							Video</a>
-					</div>
-					<p>
-						Cats <span>2023</span>
-					</p>
+					<a href="about.html" class="text-muted text-decoration-none">About</a>
+				</li>
+				<li class="list-unstyled">
+					<a href="schedules.html" class="text-muted text-decoration-none">Class Schedules</a>
+				</li>
+				<li class="list-unstyled">
+					<a href="performance.html" class="text-muted text-decoration-none">Performances</a>
+				</li>
+				<li class="list-unstyled">
+					<a href="blog.html" class="text-muted text-decoration-none">Blog</a>
+				</li>
+				<li class="list-unstyled">
+					<a href="contact.html" class="text-muted text-decoration-none">Contact</a>
 				</li>
 			</ul>
 		</div>
-
-
-		<div id="schedule">
-			<h3>Enrollment Going On!</h3>
-			<ul>
+		<div class="card-footer p-5">
+			<p class="h6 text-center">Recent Blog Posts</p>
+			<ul class="footer-list">
 				<li class="list-unstyled">
-					<span class="">June 4-8 8am-5pm</span> <a href="schedules.html">Beginners Introduction To
-						Modern Dance</a><br>Ages 3 to 5
+					<a href="blog.html" class="text-muted text-decoration-none">Dance Tips &amp; Tricks: How To Know
+						If
+						Modern Dance Is Right For
+						You</a>
 				</li>
 				<li class="list-unstyled">
-					<span class="">June 11-15 8am-5pm</span> <a href="schedules.html">Secondary Level Of Modern
-						Dance</a><br>Ages 6 to 10
+					<a href="blog.html" class="text-muted text-decoration-none">Dance Tips &amp; Tricks:The Secrets
+						To A
+						Successful Dancing Career</a>
 				</li>
 				<li class="list-unstyled">
-					<span class="">June 18-22 8am-5pm</span> <a href="schedules.html">Junior Class of Modern
-						Dance</a><br>Ages 11 to 13
-				</li>
-				<li class="list-unstyled">
-					<span class="">June 26-29 8am-5pm</span> <a href="schedules.html">Intermediate Class of
-						Modern Dance</a><br>Ages 14 to 16
-				</li>
-				<li class="list-unstyled">
-					<span class="">May 2-6 8am-5pm</span> <a href="schedules.html">Advanced Class of Modern
-						Dance</a><br>Ages 17 to 18
-				</li>
-				<li class="list-unstyled">
-					<span class="">May 9-13 8am-5pm</span> <a href="schedules.html">Expert Class of Modern
-						Dance</a><br>Ages 18-21
+					<a href="blog.html" class="text-muted text-decoration-none">Daring Dancer: Harillsa
+						Gortengkov</a>
 				</li>
 			</ul>
 		</div>
-	</div>
-	</div>
-
-	<div id="footer">
-		<span class=""></span>
-		<div class="container d-flex">
-			<div class="">
-				<h5>Navigation Menu</h5>
-				<ul class="">
-					<li class="list-unstyled">
-						<a href="index.html">Home</a>
-					</li>
-					<li class="list-unstyled">
-						<a href="about.html">About</a>
-					</li>
-					<li class="list-unstyled">
-						<a href="schedules.html">Class Schedules</a>
-					</li>
-					<li class="list-unstyled">
-						<a href="performance.html">Performances</a>
-					</li>
-					<li class="list-unstyled">
-						<a href="blog.html">Blog</a>
-					</li>
-					<li class="list-unstyled">
-						<a href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-			<div class="">
-				<h5>Recent Blog Posts</h5>
-				<ul>
-					<li class="list-unstyled">
-						<a href="blog.html">Dance Tips &amp; Tricks: How To Know If Modern Dance Is Right For
-							You</a>
-					</li>
-					<li class="list-unstyled">
-						<a href="blog.html">Dance Tips &amp; Tricks:The Secrets To A Successful Dancing Career</a>
-					</li>
-					<li class="list-unstyled">
-						<a href="blog.html">Daring Dancer: Harillsa Gortengkov</a>
-					</li>
-				</ul>
-			</div>
-			<div class="">
-				<h5>Studio Hours</h5>
-				<ul>
-					<li class="list-unstyled">
-						Mondays to Fridays: 8am- 5pm
-					</li>
-					<li class="list-unstyled">
-						Saturdays: 10am-5pm
-					</li>
-					<li class="list-unstyled">
-						Sundays: 10am-12nn
-					</li>
-					<li class="list-unstyled">
-						For Appointments: Call 262-956-6778
-					</li>
-				</ul>
-			</div>
-			<div class="">
-				<h5>Social</h5>
-				<ul class="">
-					<li class="list-unstyled">
-						<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank">Facebook</a>
-					</li>
-					<li class="list-unstyled">
-						<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank">Twitter</a>
-					</li>
-					<li class="list-unstyled">
-						<a href="http://freewebsitetemplates.com/go/youtube/" target="_blank">Vimeo</a>
-					</li>
-					<li class="list-unstyled">
-						<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank">Google+</a>
-					</li>
-				</ul>
-				<h5>Newsletter Signup</h5>
-				<form action="index.html" method="post" id="newsletter">
-					<input type="text" value="Enter your email address" class=""
+		<div class="card-footer p-5">
+			<p class="h6 text-center">Studio Hours</p>
+			<ul class="footer-list">
+				<li class="list-unstyled">
+					Mondays to Fridays: 8am- 5pm
+				</li>
+				<li class="list-unstyled">
+					Saturdays: 10am-5pm
+				</li>
+				<li class="list-unstyled">
+					Sundays: 10am-12nn
+				</li>
+				<li class="list-unstyled">
+					For Appointments: Call 262-956-6778
+				</li>
+			</ul>
+		</div>
+		<div class="card-footer p-5">
+			<p class="h6 text-center">Social</p>
+			<ul class="footer-list">
+				<li class="list-unstyled">
+					<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank"
+						class="text-muted text-decoration-none">Facebook</a>
+				</li>
+				<li class="list-unstyled">
+					<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank"
+						class="text-muted text-decoration-none">Twitter</a>
+				</li>
+				<li class="list-unstyled">
+					<a href="http://freewebsitetemplates.com/go/youtube/" target="_blank"
+						class="text-muted text-decoration-none">Vimeo</a>
+				</li>
+				<li class="list-unstyled">
+					<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank"
+						class="text-muted text-decoration-none">Google+</a>
+				</li>
+			</ul>
+		</div>
+		<div class="card-footer p-5">
+			<p class="h6 text-center">Newsletter Signup</p>
+			<form action="index.html" method="post" id="newsletter">
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label"></label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+						placeholder="Enter your email address"
 						onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}"
 						onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
-					<input type="submit" value="" class="btn">
-				</form>
-			</div>
+
+				</div>
+				<button type="submit" class="btn btn-button">Submit</button>
+			</form>
 		</div>
 	</div>
-	</div>
+
 
 	<!-- Bootstrap Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

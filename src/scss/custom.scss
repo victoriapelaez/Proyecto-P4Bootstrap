@@ -8,11 +8,13 @@ $theme-colors: (
   "primary": #303030,
   "secondary": white,
   "success": #f6f6f6,
+  "section": rgb(18, 42, 92),
+  "button":rgb(124, 94, 163),
  /*  "info":       $info,
   "warning":    $warning,
   "danger":     $danger,
-  "light":      $light,*/ 
-  "dark":       #000
+  "light":      $light,
+  "dark":       #000*/ 
 );
 /* $primary: #303030;
 $secondary: white;
@@ -25,7 +27,7 @@ h2,h3
  {
   color: #000;
     font-family: 'Nixie One', cursive;
-    font-weight: normal;
+    font-weight:100;
     line-height: 24px;
     margin: 0 0 24px;
     text-transform: uppercase;
@@ -38,7 +40,9 @@ p {
   padding: 0 0 24px;
 }
 
-
+.footer-list{
+  font: 0.7rem/1.5 var(--bs-font-sans-serif);
+}
 
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
