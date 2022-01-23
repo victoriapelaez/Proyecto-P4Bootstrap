@@ -9,28 +9,29 @@ $theme-colors: (
   "secondary": white,
   "success": #f6f6f6,
   "section": rgb(18, 42, 92),
-  "button":rgb(124, 94, 163),
- /*  "info":       $info,
+  "button": rgb(124, 94, 163),
+  "title":grey
+  /*  "info":       $info,
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       #000*/ 
+  "dark":       #000*/
 );
 /* $primary: #303030;
 $secondary: white;
 $success: #f6f6f6; */
 
-
 $font-family-base: "Muli Light", arial;
 
-h2,h3
- {
+h2,
+h3 {
   color: #000;
-    font-family: 'Nixie One', cursive;
-    font-weight:100;
-    line-height: 24px;
-    margin: 0 0 24px;
+  font-family: "Nixie One", cursive;
+  font-weight: 100;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
+
 p {
   color: #606060;
   font-size: 13px;
@@ -39,19 +40,28 @@ p {
   padding: 0 0 24px;
 }
 
-.footer-list{
+.footer-list {
   font: 0.7rem/1.5 var(--bs-font-sans-serif);
 }
 
 @media (max-width: 550px) {
-  .logo { width: 300px; }
+  .logo {
+    width: 300px;
+  }
 }
-
+@media (max-width: 991px) {
+  .blog-search {
+    width: 150px;
+  }
+  .search-text{
+    font-size: 1rem;
+  }
+}
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
-navbar-toggler{
- background-color: white !important;
+navbar-toggler {
+  background-color: white !important;
 }
