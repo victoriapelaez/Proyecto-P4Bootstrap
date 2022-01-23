@@ -16,17 +16,21 @@
 </head>
 
 <body class="bg-success w-100">
+	<!-- Contenedor para el header -->
 	<div class="container mw-100 p-0">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<!-- logo header -->
 			<a href="index.html" id="logo" class="ms-5">
-				<img src="images/logo.png" alt="LOGO" class="img-fluid mt-3 mb-3 ms-5 ps-5">
+				<img src="images/logo.png" alt="LOGO" class="img-fluid ms-5">
 			</a>
+			<!-- contenedor boton hamburguesa responsive -->
 			<div class="container-fluid">
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 					data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
 					aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
+				<!-- contenedor para enlaces -->
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 					<a class="navbar-brand" href="#"></a>
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0" style="width: auto; margin: auto auto;">
@@ -54,10 +58,12 @@
 		</nav>
 	</div>
 
+	<!-- contenedor card -->
 	<div class="container w-55">
 		<div class="card m-5 bg-success border-0">
 			<div class="row g-0 justify-content-center">
 				<div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
+					<!-- contenedor card texto -->
 					<div class="card-body p-0">
 						<p class="h3 text-uppercase">Welcome to Neodance Studio</p>
 						<p class="m-0">
@@ -90,6 +96,7 @@
 						</p>
 					</div>
 				</div>
+				<!-- contenedor card imagen -->
 				<div class="col-xl-7" style="width: auto; margin: auto auto;">
 					<img src="images/jumping.jpg" alt="Img" class="img-thumbnail img-fluid shadow">
 				</div>
@@ -97,78 +104,85 @@
 		</div>
 	</div>
 
-
+	<!-- contenedor titulo -->
 	<div class="m-5 border-top border-3">
 		<h3 class="mt-4">Recent Performances<br><span class="badge bg-section mt-3">New Section</span></h3>
 	</div>
 
+	<!-- contenedor carrousel -->
+	<div class="container mt-5 pt-5">
+		<!-- contenedor barras inferiores carrousel -->
+		<div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active"></li>
+				<li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1"></li>
+				<li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2"></li>
+				<li data-bs-target="#carouselWithCaptions" data-bs-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<!-- contenedores item-carrousel -->
+				<div class="carousel-item active">
+					<img src="images/video-swanLake.jpg" class="d-block w-100 img-fluid" alt="Slide 1">
+					<div class="carousel-caption d-none d-sm-block">
+						<a href="images/video-swanLake.jpg" class="text-muted text-decoration-none">Play
+							Video</a>
+						<h5>Swan Lake</h5>
+						<h4 class="m-0 small">2023</h4>
 
-<div class="container mt-5 pt-5">
-	<div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
-		<ol class="carousel-indicators">
-		  <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active"></li>
-		  <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1"></li>
-		  <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2"></li>
-		  <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="3"></li>
-		</ol>
-		<div class="carousel-inner">
-		  <div class="carousel-item active">
-			<img src="images/video-swanLake.jpg" class="d-block w-100 img-fluid" alt="Slide 1">
-			<div class="carousel-caption d-none d-sm-block">
-				<a href="images/video-swanLake.jpg" class="text-muted text-decoration-none">Play
-					Video</a>
-				<h5>Swan Lake</h5>
-				<h4 class="m-0 small">2023</h4>
-				
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/video-steppingOut.jpg" class="d-block w-100 img-fluid" alt="Slide 2">
+					<div class="carousel-caption d-none d-sm-block">
+						<a href="images/video-steppingOut.jpg" class="text-muted text-decoration-none">Play Video</a>
+						<h5>Stepping Out</h5>
+						<h4 class="m-0 small">2023</h4>
+
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/video-phantom.jpg" class="d-block w-100 img-fluid" alt="Slide 3">
+					<div class="carousel-caption d-none d-sm-block">
+						<a href="images/video-phantom.jpg" class="text-muted text-decoration-none">Play
+							Video</a>
+						<h5>Phantom of the Opera</h5>
+						<h4 class="m-0 small">2023</h4>
+
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/video-cats.jpg" class="d-block w-100 img-fluid" alt="Slide 3">
+					<div class="carousel-caption d-none d-sm-block">
+						<a href="images/video-cats.jpg" class="text-muted text-decoration-none">Play
+							Video</a>
+						<h5>Cats</h5>
+						<h4 class="m-0 small">2023</h4>
+
+					</div>
+				</div>
+
 			</div>
-		  </div>
-		  <div class="carousel-item">
-			<img src="images/video-steppingOut.jpg" class="d-block w-100 img-fluid" alt="Slide 2">
-			<div class="carousel-caption d-none d-sm-block">
-				<a href="images/video-steppingOut.jpg" class="text-muted text-decoration-none">Play Video</a>
-				<h5>Stepping Out</h5>
-				<h4 class="m-0 small">2023</h4>
-				
-			</div>
-		  </div>
-		  <div class="carousel-item">
-			<img src="images/video-phantom.jpg" class="d-block w-100 img-fluid" alt="Slide 3">
-			<div class="carousel-caption d-none d-sm-block">
-				<a href="images/video-phantom.jpg" class="text-muted text-decoration-none">Play
-					Video</a>
-				<h5>Phantom of the Opera</h5>
-				<h4 class="m-0 small">2023</h4>
-				
-			</div>
-		  </div>
-		  <div class="carousel-item">
-			<img src="images/video-cats.jpg" class="d-block w-100 img-fluid" alt="Slide 3">
-			<div class="carousel-caption d-none d-sm-block">
-				<a href="images/video-cats.jpg" class="text-muted text-decoration-none">Play
-					Video</a>
-				<h5>Cats</h5>
-				<h4 class="m-0 small">2023</h4>
-				
-			</div>
-		  </div>
-		  
+
+			<!-- contenedor botones izquierda y derecha carrousel -->
+			<a class="carousel-control-prev" href="#carouselWithCaptions" role="button" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselWithCaptions" role="button" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</a>
 		</div>
-		<a class="carousel-control-prev" href="#carouselWithCaptions" role="button" data-bs-slide="prev">
-		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		  <span class="visually-hidden">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselWithCaptions" role="button" data-bs-slide="next">
-		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		  <span class="visually-hidden">Next</span>
-		</a>
-	  </div>
 	</div>
 
+	<!-- contenedor titulo -->
 	<div class="m-5 border-top border-3">
 		<h3 class="mt-4">Enrollment Going On!</h3>
 	</div>
+
+	<!-- contenedor tabla -->
 	<div class="container mb-5 small">
-		<table class="table table-borderless ms-5">
+		<table class="table table-borderless table-condensed table-hover table-responsive tabla mb-5">
 			<thead>
 				<tr>
 					<th scope="col">Date</th>
@@ -217,10 +231,13 @@
 		</table>
 	</div>
 
+	<!-- contenedor footer -->
+	<div class="container mw-100 p-0 mt-5">
 
-	<div class="container mw-100 p-0 col-xxl-12 d-flex justify-content-evenly">
-		<div class="card-footer p-5 mt-5">
-			<p class="h6 text-center">Navigation Menu</p>
+		<div class="row">
+		<!-- footer contenedor navigation menu -->
+		<div class="card-footer col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-md-6 col-sm">
+			<h4 class="my-3 text-center">Navigation Menu</h4>
 			<ul class="footer-list">
 				<li class="list-unstyled">
 					<a href="index.html" class="text-muted text-decoration-none">Home</a>
@@ -242,8 +259,10 @@
 				</li>
 			</ul>
 		</div>
-		<div class="card-footer p-5 mt-5">
-			<p class="h6 text-center">Recent Blog Posts</p>
+
+		<!-- footer contenedor recent blog posts -->
+		<div class="card-footer col-xxl-2 col-xl-2 col-lg-3 col-md col-md-6 col-sm-12">
+			<h4 class="my-3 text-center">Recent Blog Posts</h4>
 			<ul class="footer-list">
 				<li class="list-unstyled">
 					<a href="blog.html" class="text-muted text-decoration-none">Dance Tips &amp; Tricks: How To Know
@@ -262,8 +281,10 @@
 				</li>
 			</ul>
 		</div>
-		<div class="card-footer p-5 mt-5">
-			<p class="h6 text-center">Studio Hours</p>
+
+		<!-- footer contenedor studio hours -->
+		<div class="card-footer col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-md-6 col-sm-12">
+			<h4 class="my-3 text-center">Studio Hours</h4>
 			<ul class="footer-list">
 				<li class="list-unstyled">
 					Mondays to Fridays: 8am- 5pm
@@ -279,8 +300,10 @@
 				</li>
 			</ul>
 		</div>
-		<div class="card-footer p-5 mt-5">
-			<p class="h6 text-center">Social</p>
+
+		<!-- footer contenedor social -->
+		<div class="card-footer col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-md-6 col-sm-12">
+			<h4 class="my-3 text-center">Social</h4>
 			<ul class="footer-list">
 				<li class="list-unstyled">
 					<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank"
@@ -300,9 +323,11 @@
 				</li>
 			</ul>
 		</div>
-		<div class="card-footer p-5 mt-5">
-			<p class="h6 text-center">Newsletter Signup</p>
-			<form action="index.html" method="post" id="newsletter">
+
+		<!-- footer contenedor navigation newsletter -->
+		<div class="card-footer col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-md-12 col-sm-12">
+			<h4 class="my-3 text-center">Newsletter Signup</h4>
+			<form action="index.html" method="post" id="newsletter" class="mx-3">
 				<div class="mb-3">
 					<label for="exampleInputEmail1" class="form-label"></label>
 					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -313,6 +338,7 @@
 				<button type="submit" class="btn btn-button">Submit</button>
 			</form>
 		</div>
+	</div>
 	</div>
 
 
