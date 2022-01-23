@@ -1,45 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Nixie+One&display=swap");
 @import url("https://allfont.es/allfont.css?fonts=muli-light");
-/* $primary: #303030;
-$secondary: white;
-$success: #f6f6f6; */
-h2, .h2,
-h3,
-.h3 {
-  color: #000;
-  font-family: "Nixie One", cursive;
-  font-weight: 100;
-  line-height: 24px;
-  margin: 0 0 24px;
-}
-
-p {
-  color: #606060;
-  font-size: 13px;
-  line-height: 24px;
-  margin: 0;
-  padding: 0 0 24px;
-}
-
-.footer-list {
-  font: 0.7rem/1.5 var(--bs-font-sans-serif);
-}
-
-@media (max-width: 550px) {
-  .logo {
-    width: 300px;
-  }
-}
-@media (max-width: 991px) {
-  .blog-search {
-    width: 150px;
-  }
-
-  .search-text {
-    font-size: 1rem;
-  }
-}
+/* sobreescritura de los colores y creación de algunos nuevos */
+/* $theme-colors: map-remove($theme-colors, "info","warning", "danger", "light","dark"); */
+/* sobreescritura de la letra principal de la página */
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10957,8 +10921,56 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-navbar-toggler {
-  background-color: white !important;
+/* tamaño del logo más pequeño */
+@media (max-width: 550px) {
+  .logo {
+    width: 300px;
+  }
+}
+/* tamaño del input y de la letra más pequeño */
+@media (max-width: 991px) {
+  .blog-search {
+    width: 150px;
+  }
+
+  .search-text {
+    font-size: 1rem;
+  }
+}
+/* tamaño de la letra de la tabla más pequeña */
+@media (max-width: 767px) {
+  .tabla {
+    font-size: 0.8rem;
+  }
+}
+/* estilo personalizado para las cabeceras */
+h2, .h2,
+h3,
+.h3 {
+  color: #000;
+  font-family: "Nixie One", cursive;
+  font-weight: 100;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
+
+/* estilo personalizado para los párrafos */
+p {
+  color: #606060;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 24px;
+}
+
+/* letra para la tabla */
+.tabla {
+  font-family: "Nixie One", cursive;
+}
+
+/* css variable y tamaño de la letra del footer */
+.footer-list {
+  font: 0.7rem/1.5 var(--bs-font-sans-serif);
 }
 
 /*# sourceMappingURL=custom.css.map */

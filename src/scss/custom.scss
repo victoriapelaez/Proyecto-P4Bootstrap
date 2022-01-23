@@ -4,6 +4,8 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
+
+/* sobreescritura de los colores y creación de algunos nuevos */
 $theme-colors: (
   "primary": #303030,
   "secondary": white,
@@ -17,38 +19,27 @@ $theme-colors: (
   "light":      $light,
   "dark":       #000*/
 );
-/* $primary: #303030;
-$secondary: white;
-$success: #f6f6f6; */
 
+/* $theme-colors: map-remove($theme-colors, "info","warning", "danger", "light","dark"); */
+
+/* sobreescritura de la letra principal de la página */
 $font-family-base: "Muli Light", arial;
 
-h2,
-h3 {
-  color: #000;
-  font-family: "Nixie One", cursive;
-  font-weight: 100;
-  line-height: 24px;
-  margin: 0 0 24px;
-}
 
-p {
-  color: #606060;
-  font-size: 13px;
-  line-height: 24px;
-  margin: 0;
-  padding: 0 0 24px;
-}
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
-.footer-list {
-  font: 0.7rem/1.5 var(--bs-font-sans-serif);
-}
 
+// Then add additional custom code here
+
+
+/* tamaño del logo más pequeño */
 @media (max-width: 550px) {
   .logo {
     width: 300px;
   }
 }
+
+/* tamaño del input y de la letra más pequeño */
 @media (max-width: 991px) {
   .blog-search {
     width: 150px;
@@ -58,10 +49,38 @@ p {
   }
 }
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
+/* tamaño de la letra de la tabla más pequeña */
+@media (max-width: 767px) {
+  .tabla{
+    font-size: 0.8rem;
+  }
+}
 
-// Then add additional custom code here
+/* estilo personalizado para las cabeceras */
+h2,
+h3 {
+  color: #000;
+  font-family: "Nixie One", cursive;
+  font-weight: 100;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
 
-navbar-toggler {
-  background-color: white !important;
+/* estilo personalizado para los párrafos */
+p {
+  color: #606060;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 24px;
+}
+
+/* letra para la tabla */
+.tabla{
+  font-family: "Nixie One", cursive;
+}
+
+/* css variable y tamaño de la letra del footer */
+.footer-list {
+  font: 0.7rem/1.5 var(--bs-font-sans-serif);
 }
