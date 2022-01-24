@@ -1,11 +1,11 @@
 # DANCE WEBSITE TEMPLATE
 Proyecto para la asignatura de Diseño de Interfícies Web en la cuál debemos dar estilo inspirándonos en una plantilla con Bootstrap 5.
 
- [Plantilla extraida de: ](https://freewebsitetemplates.com/preview/neodance/index.html).
+ [Plantilla extraida de: ](https://freewebsitetemplates.com/preview/neodance/index.html)
 
- [Repositorio: ](https://github.com/victoriapelaez/Proyecto-P4Bootstrap).
+ [Repositorio: ](https://github.com/victoriapelaez/Proyecto-P4Bootstrap)
 
- [Enlace Netlify: ](https://affectionate-euler-77c821.netlify.app/).
+ [Enlace Netlify: ](https://affectionate-euler-77c821.netlify.app/)
 
 
 ## COMPONENTES DE BOOTSTRAP USADOS
