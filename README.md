@@ -1,11 +1,11 @@
 # DANCE WEBSITE TEMPLATE
 Proyecto para la asignatura de Diseño de Interfícies Web en la cuál debemos dar estilo inspirándonos en una plantilla con Bootstrap 5.
 
- [Plantilla extraida de: ](https://freewebsitetemplates.com/preview/neodance/index.html)
+ [Plantilla usada](https://freewebsitetemplates.com/preview/neodance/index.html)
 
- [Repositorio: ](https://github.com/victoriapelaez/Proyecto-P4Bootstrap)
+ [Repositorio](https://github.com/victoriapelaez/Proyecto-P4Bootstrap)
 
- [Enlace Netlify: ](https://affectionate-euler-77c821.netlify.app/)
+ [Enlace Netlify](https://affectionate-euler-77c821.netlify.app/)
 
 
 ## COMPONENTES DE BOOTSTRAP USADOS
@@ -60,6 +60,6 @@ de la documentación, como por ejemplo: Forms, Typografhy, Images.
 
 ## WEBGRAFIA
 
-- [Documentación oficial: ](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-- [Recursos Bootstrap resumido: ](https://bootstrap-cheatsheet.themeselection.com/)
-- [Página consultada: ](http://edusi.ingenio.es/ayuntamiento-de-ingenio/inicio/gestion-municipal-representantes/grupo-de-gobierno/bootstrap-grid-tablas-e-imagenes.html)
+- [Documentación oficial](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+- [Recursos Bootstrap resumido](https://bootstrap-cheatsheet.themeselection.com/)
+- [Resumen tablas e imágenes](http://edusi.ingenio.es/ayuntamiento-de-ingenio/inicio/gestion-municipal-representantes/grupo-de-gobierno/bootstrap-grid-tablas-e-imagenes.html)
